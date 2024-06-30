@@ -1,0 +1,16 @@
+{
+  "name": "blazorwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./Themes/Theme.css -o ./wwwroot/css/theme.css --watch",
+    "build": "npx tailwindcss -i ./Themes/Theme.css -o ./wwwroot/css/theme.min.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

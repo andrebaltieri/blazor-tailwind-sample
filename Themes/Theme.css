@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-primary {
+    @apply text-4xl font-serif underline p-16 m-4 text-center text-white bg-primary
+}
